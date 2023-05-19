@@ -29,6 +29,11 @@ Final quality on test:
 - exact score: 84.44444444444444
 - f1-score: 97.47689267517949
 
+## Leaderboard
+Final position in leaderboard - TOP 5:
+
+<img src="images/leaderboard_position.jpg" alt="map" width="500"/>
+
 ## How to improve 🔨
-1. Longer training as well as hyperparameters optimization can significantly improve the quality of the final model
-2. The U-net architecture is rather obsolete and rarely used in modern solutions. The use of newer architectures will give much more sustainable results
+1. I checked only mdeberta-v3-base-squad2 model, but other models can show a better results 
+2. Expanding the sample in some artificial way can improve the final quality of the model 
